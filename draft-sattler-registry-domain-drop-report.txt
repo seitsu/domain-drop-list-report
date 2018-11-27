@@ -52,7 +52,8 @@ Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
    2.  Terminology and Definitions . . . . . . . . . . . . . . . . .   2
      2.1.  Internationalized Domain Names  . . . . . . . . . . . . .   2
-     2.2.  Character Encoding  . . . . . . . . . . . . . . . . . . .   3
+     2.2.  Dates and Times . . . . . . . . . . . . . . . . . . . . .   3
+     2.3.  Character Encoding  . . . . . . . . . . . . . . . . . . .   3
    3.  Report Headings . . . . . . . . . . . . . . . . . . . . . . .   3
    4.  Examples  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
      4.1.  Single TLD File Example . . . . . . . . . . . . . . . . .   3
@@ -60,8 +61,8 @@ Table of Contents
    5.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
    6.  Security Considerations . . . . . . . . . . . . . . . . . . .   4
    7.  Implementation Status . . . . . . . . . . . . . . . . . . . .   4
-   8.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   4
-     8.1.  Normative References  . . . . . . . . . . . . . . . . . .   4
+   8.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   5
+     8.1.  Normative References  . . . . . . . . . . . . . . . . . .   5
      8.2.  Informative References  . . . . . . . . . . . . . . . . .   5
    Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   5
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   5
@@ -103,8 +104,13 @@ Table of Contents
 Sattler                  Expires May 29, 2019                   [Page 2]
 
 Internet-Draft         Registry Domain Drop Report         November 2018
+
+2.2.  Dates and Times
+
+   MUST be as defined in
+   [I-D.mcpherson-sattler-registry-report-structure].
    
-2.2.  Character Encoding
+2.3.  Character Encoding
 
    MUST be as defined in
    [I-D.mcpherson-sattler-registry-report-structure].
@@ -114,16 +120,20 @@ Internet-Draft         Registry Domain Drop Report         November 2018
    The first row MUST be the column headings in the following order:
    
    TLD               It MUST contain the top-level domain name and
-                     formatted according section 2.1 of this document.
+                     formatted according to section 2.1 of this
+                     document.
    
    DOMAIN            It MUST contain the domain name formatted according
-                     section 2.1 of this document.
+                     to section 2.1 of this document.
 
    EXPIRED           It MUST contain the date and time when the domain
-                     name expired.
+                     name expired formatted according to section 2.2 of
+                     this document.
                      
    PURGED            It MUST contain the date and time when the domain
-                     name will be purged from the registry system.
+                     name will be purged from the registry system
+                     formatted according to section 2.2 of this
+                     document.
 
 4.  Examples
 
@@ -147,6 +157,10 @@ Internet-Draft         Registry Domain Drop Report         November 2018
    domains from example registry.
    
    Filename: example-registry_domain-drop-list_2018-11.csv.gz
+   
+Sattler                  Expires May 29, 2019                   [Page 3]
+
+Internet-Draft         Registry Domain Drop Report         November 2018
 
    TLD,DOMAIN,EXPIRED,PURGED
    example1,test1.example1,2018-11-21T09:36:10Z,2018-11-26T09:36:10Z
@@ -154,10 +168,6 @@ Internet-Draft         Registry Domain Drop Report         November 2018
    example3,test2.example3,2018-11-21T12:06:13Z,2018-11-26T12:06:13Z
    xn--zckzah,xn--r8jz45g.xn--zckzah,2018-11-21T12:06:14Z,
    2018-11-26T12:06:14Z
-   
-Sattler                  Expires May 29, 2019                   [Page 3]
-
-Internet-Draft         Registry Domain Drop Report         November 2018
 
 5.  IANA Considerations
 
@@ -194,6 +204,10 @@ Internet-Draft         Registry Domain Drop Report         November 2018
    they see fit".
 
    Add implementation details once available.
+   
+Sattler                  Expires May 29, 2019                   [Page 4]
+
+Internet-Draft         Registry Domain Drop Report         November 2018
 
 8.  References
 
@@ -208,10 +222,6 @@ Internet-Draft         Registry Domain Drop Report         November 2018
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119, March 1997,
               <https://www.rfc-editor.org/info/rfc2119>.
-              
-Sattler                  Expires May 29, 2019                   [Page 4]
-
-Internet-Draft         Registry Domain Drop Report         November 2018
               
 8.2.  Informative References
 
