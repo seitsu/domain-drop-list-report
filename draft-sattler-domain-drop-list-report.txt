@@ -3,14 +3,14 @@ Internet-Draft
 Intended status: Best Current Practice                         
 Expires: July 30, 2019                                  January 31, 2019
 
-                         Registry Domain Drop Report
-                draft-sattler-registry-domain-drop-report-01
+                          Domain Drop List Report
+                 draft-sattler-domain-drop-list-report-00
 
 Abstract
 
-   This document describes the content of a domain drop list based on
-   the registry report structure and delivered by the registry reporting
-   repository.
+   This document describes the content of a Domain Drop List Report
+   based on the Report Structure and delivered by the Reporting
+   Repository.
 
 Status of This Memo
 
@@ -46,7 +46,7 @@ Copyright Notice
 
 Sattler                  Expires July 30, 2019                  [Page 1]
 
-Internet-Draft         Registry Domain Drop Report          January 2019
+Internet-Draft          Domain Drop List Report             January 2019
 
 Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
@@ -65,7 +65,7 @@ Table of Contents
      8.1.  Normative References  . . . . . . . . . . . . . . . . . .   5
      8.2.  Informative References  . . . . . . . . . . . . . . . . .   5
    Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   5
-     A.1.  Change from 00 to 01  . . . . . . . . . . . . . . . . . .   5
+     A.1.  Change from 00 to DROPLIST 00 . . . . . . . . . . . . . .   5
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   5
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
 
@@ -75,7 +75,7 @@ Table of Contents
    reports and documents that their registrars require on a daily,
    weekly and monthly basis. These most commonly include transaction
    reports, as well as lists containing currently unavailable domains
-   and current premium domains. These reports are critical for
+   and current premium domain fees. These reports are critical for
    registrars' businesses and play an important role in accounting and
    operations processes as well as in sales and marketing activities.
    In the current set-up registrars must download these reports from
@@ -85,9 +85,9 @@ Table of Contents
    Some domain name registries provide a list containing the expired
    domain names that will be deleted / purged in the near future.
    
-   This document describes the content of a domain drop list based on
-   the [I-D.mcpherson-sattler-registry-report-structure] and delivered
-   by the [I-D.mcpherson-sattler-registry-reporting-repo].
+   This document describes the content of a Domain Drop List Report
+   based on the [I-D.mcpherson-sattler-registry-report-structure] and
+   delivered by the [I-D.mcpherson-sattler-registry-reporting-repo].
 
 2.  Terminology and Definitions
 
@@ -103,7 +103,7 @@ Table of Contents
    
 Sattler                  Expires July 30, 2019                  [Page 2]
 
-Internet-Draft         Registry Domain Drop Report          January 2019
+Internet-Draft          Domain Drop List Report             January 2019
 
 2.2.  Dates and Times
 
@@ -154,13 +154,13 @@ Internet-Draft         Registry Domain Drop Report          January 2019
 4.2.  Multiple TLDs File Example
 
    This is an example of a domain drop list for multiple top-level
-   domains from example registry.
+   domains from example-registry.
    
    Filename: example-registry_domain-drop-list_2018-11.csv.gz
    
 Sattler                  Expires July 30, 2019                  [Page 3]
 
-Internet-Draft         Registry Domain Drop Report          January 2019
+Internet-Draft          Domain Drop List Report             January 2019
 
    TLD,DOMAIN,EXPIRED,PURGED
    example1,test1.example1,2018-11-21T09:36:10Z,2018-11-26T09:36:10Z
@@ -207,7 +207,7 @@ Internet-Draft         Registry Domain Drop Report          January 2019
    
 Sattler                  Expires July 30, 2019                  [Page 4]
 
-Internet-Draft         Registry Domain Drop Report          January 2019
+Internet-Draft          Domain Drop List Report             January 2019
 
 8.  References
 
@@ -238,9 +238,9 @@ Internet-Draft         Registry Domain Drop Report          January 2019
 
 Appendix A.  Change History
 
-A.1.  Change from 00 to 01
+A.1.  Change from 00 to DROPLIST 00
 
-   Editorial changes and minor fixes
+   Changed draft name. Editorial changes and minor fixes.
 
 Appendix B.  Acknowledgements
 
