@@ -86,8 +86,8 @@ Table of Contents
    domain names that will be deleted / purged in the near future.
    
    This document describes the content of a Domain Drop List Report
-   based on the [I-D.mcpherson-sattler-registry-report-structure] and
-   delivered by the [I-D.mcpherson-sattler-registry-reporting-repo].
+   based on the [I-D.mcpherson-sattler-report-structure] and delivered
+   by the [I-D.mcpherson-sattler-reporting-repository].
 
 2.  Terminology and Definitions
 
@@ -108,12 +108,12 @@ Internet-Draft          Domain Drop List Report             January 2019
 2.2.  Dates and Times
 
    MUST be as defined in
-   [I-D.mcpherson-sattler-registry-report-structure].
+   [I-D.mcpherson-sattler-report-structure].
    
 2.3.  Character Encoding
 
    MUST be as defined in
-   [I-D.mcpherson-sattler-registry-report-structure].
+   [I-D.mcpherson-sattler-report-structure].
 
 3.  Report Headings
 
@@ -213,11 +213,10 @@ Internet-Draft          Domain Drop List Report             January 2019
 
 8.1.  Normative References
 
-   [I-D.mcpherson-sattler-registry-report-structure]
-              McPherson, N. and Sattler, T., "Registry Report Strucutre"
-              , <https://datatracker.ietf.org/doc/draft-mcpherson-
-              sattler-registry-report-structure/> (work in
-              progress), November 2018
+   [I-D.mcpherson-sattler-report-structure]
+              McPherson, N. and Sattler, T., "Report Strucutre",
+              <https://datatracker.ietf.org/doc/draft-mcpherson-sattler-
+              report-structure/> (work in progress), January 2019
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119, March 1997,
@@ -225,11 +224,10 @@ Internet-Draft          Domain Drop List Report             January 2019
               
 8.2.  Informative References
 
-   [I-D.mcpherson-sattler-registry-reporting-repo]
-              McPherson, N. and Sattler, T., "Registry Reporting
-              Repository", <https://datatracker.ietf.org/doc/draft-
-              mcpherson-sattler-registry-reporting-repo/> (work in
-              progress), November 2018
+   [I-D.mcpherson-sattler-reporting-repository]
+              McPherson, N. and Sattler, T., "Reporting Repository",
+              <https://datatracker.ietf.org/doc/draft-mcpherson-sattler-
+              reporting-repository/> (work in progress), January 2019
 
    [RFC7942]  Sheffer, Y. and Farrel, A., "Improving Awareness of
               Running Code: The Implementation Status Section", RFC
