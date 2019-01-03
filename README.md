@@ -1,7 +1,7 @@
-## Registry Domain Drop Report
+## Domain Drop List Report
 
 ### Goal
-The goal is to draft a Domain Drop Report based on the [Registry Report Structure] and shall be delivered through the [Registry Reporting Repository].
+The goal is to draft a Domain Drop List Report based on the [Registry Report Structure] and shall be delivered through the [Registry Reporting Repository].
 
 ### Status
 The idea to create the repository, the structure and numerous reports was first raised in the ICANN Registrar Stakeholder Group ([RrSG]) Technical and Operational ([TechOps]) Subcommittee, and further discussed and eventually approved in the [CPH TechOps] Group.
