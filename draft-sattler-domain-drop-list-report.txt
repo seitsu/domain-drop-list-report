@@ -1,7 +1,7 @@
 Internet Engineering Task Force                       T. Sattler, Editor
 Internet-Draft                                              
 Intended status: Best Current Practice                         
-Expires: July 30, 2019                                  January 31, 2019
+Expires: July 28, 2019                                  January 29, 2019
 
                           Domain Drop List Report
                  draft-sattler-domain-drop-list-report-00
@@ -27,7 +27,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on July 30, 2019.
+   This Internet-Draft will expire on July 28, 2019.
 
 Copyright Notice
 
@@ -44,7 +44,7 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-Sattler                  Expires July 30, 2019                  [Page 1]
+Sattler                  Expires July 28, 2019                  [Page 1]
 
 Internet-Draft          Domain Drop List Report             January 2019
 
@@ -101,7 +101,7 @@ Table of Contents
    MUST be as defined in
    [I-D.mcpherson-sattler-registry-report-structure].
    
-Sattler                  Expires July 30, 2019                  [Page 2]
+Sattler                  Expires July 28, 2019                  [Page 2]
 
 Internet-Draft          Domain Drop List Report             January 2019
 
@@ -158,7 +158,7 @@ Internet-Draft          Domain Drop List Report             January 2019
    
    Filename: example-registry_domain-drop-list_2018-11.csv.gz
    
-Sattler                  Expires July 30, 2019                  [Page 3]
+Sattler                  Expires July 28, 2019                  [Page 3]
 
 Internet-Draft          Domain Drop List Report             January 2019
 
@@ -205,7 +205,7 @@ Internet-Draft          Domain Drop List Report             January 2019
 
    Add implementation details once available.
    
-Sattler                  Expires July 30, 2019                  [Page 4]
+Sattler                  Expires July 28, 2019                  [Page 4]
 
 Internet-Draft          Domain Drop List Report             January 2019
 
@@ -252,5 +252,5 @@ Author's Address
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-Sattler                  Expires July 30, 2019                  [Page 5]
+Sattler                  Expires July 28, 2019                  [Page 5]
 
